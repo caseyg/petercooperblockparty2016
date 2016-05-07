@@ -292,3 +292,5 @@ textarea {
     text-decoration: none;
     margin-bottom:20px;
 }
+
+img {max-width:100%}
