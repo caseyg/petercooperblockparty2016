@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    text-align: center;
 }
 
 /*
@@ -279,4 +280,15 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.donate {
+    background: lime;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px orange;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom:20px;
 }
