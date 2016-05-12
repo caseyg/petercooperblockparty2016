@@ -292,10 +292,6 @@ textarea {
     margin-bottom:20px;
 }
 
-img {
-    max-width: 100%;
-}
-
 .card-text a:link, .card-text a:visited {
     color: black;
     text-decoration: underline;
@@ -316,3 +312,4 @@ body {
 #navbar {
     margin-top:50px;
 }
+img {max-width:100%}
