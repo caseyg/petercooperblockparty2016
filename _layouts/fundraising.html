@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Fundraising | Peter Cooper Block Party 2016</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" crossorigin="anonymous">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-offset="50" data-target="#navbar" id="top">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        {% include nav.html %}
+
+        <div class="jumbotron jumbotron-fluid" style="min-height:600px; background:url(img/header.jpg); background-size: cover;color: #fff;">
+            <div class="container intro-text">
+                <h3><strong>Peter Cooper Block Party 2016</strong></h3>
+                <h1 class="display-3">Fundraising</h1>
+                <p>June 5, 2016 &bull; 7 East 7th St.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h2>How It Works</h2>
+
+                    <p class="lead">The Peter Cooper Block Party 2016, hosted by the <a href="http://cooperalumni.org">Cooper Union Alumni Association</a>, is taking place in coordination with an Alumni Awards Ceremony dinner and  <a href="http://support.cooper.edu">Alumni Affairs</a> Reunion Weekend...<strong>it will take all-hands-on-deck to bring the Cooper community together for these events!</strong></p>
+
+                    <p>These events are funded in part by existing CUAA funds, <a href="http://cooper.edu">The Cooper Union</a>, the CUAA Council, and the broader community.</p>
+
+                    <p>The CUAA is currently processing funds through fiscal sponsor Fractured Atlas as it moves towards 501c3 status. Please email <a href="mailto:petercooperblockparty@gmail.com">petercooperblockparty@gmail.com</a> if you have any questions about how to donate.</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <h2>Named Sponsorships</h2>
+
+                    <p class="lead">Below you will find over <strong>20 Named Sponsorship opportunities</strong>. We will proudly acknowledge your name, company, or organization in relation to the Block Party program you sponsor on print and digital materials as well as signage.</p>
+
+                    <p>After clicking the "Sponsor" buttons below, you can submit your information to us, and then you will be redirected to Fractured Atlas to complete your donation.</p>
+
+                    <p>Once your contribution has been processed we will be in touch, and you can provide us with logo files if applicable.</p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-sm-12 text-xs-center">
+                    <h2>Click below to donate directly</h2><br>
+                    <p><a class="btn btn-lg btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$500</strong></a></p>
+                    <p><a class="btn btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$250</strong></a></p>
+                    <p><a class="btn btn-sm btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$100</strong></a></p>
+
+                    <p>Or read on to claim sponsorship opportunities...</p>
+                </div>
+            </div>
+
+            <hr>
+
+            {% for category in site.data.sponsor %}
+            <hr id="{{category.title | slugify}}">
+            <div class="jumbotron">
+              <div class="container-fluid text-xs-center">
+                <h2 class="display-4">{{category.emoji}} {{category.title  }} <span class="hidden-sm-down">{{category.emoji}}</span></h2>
+                {% if category.description %}<p class="lead">{{category.description}}</p>{% endif %}
+                </div>
+            </div>
+            <div class="card-columns">
+                {% for item in category.items %}
+                        <div class="card text-xs-center">
+                          {% if item.image %}<img class="card-img-top" src="img/{{item.image}}">{% endif %}
+                          <div class="card-block">
+                            <h4 class="card-title">{{item.title }}</h4>
+                            {% if item.description %}<p class="card-text">{{item.description}}</p>{% endif %}
+                            <button type="button" class="btn btn-primary btn-block btn-success" data-toggle="modal" data-target="#exampleModal" data-item="{{item.title}}" data-amount="{{item.amount}}">Sponsor <strong>${{item.amount}}</strong></button>
+                          </div>
+                          {% if item.sponsor %}<div class="card-header card-warning" style="color:#fff;">{{item.sponsor}}</div>{% endif%}
+                        </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+
+            <hr>
+
+            <div class="row">
+                <div class="jumbotron">
+                  <div class="container text-xs-center">
+                    <h2 class="display-4">That's all, folks!</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12 text-xs-center">
+                    <p><a class="btn btn-sm btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$100</strong></a></p>
+                    <p><a class="btn btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$500</strong></a></p>
+                    <p><a class="btn btn-lg btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$1,000</strong></a></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="text-xs-center"><a href="#top">Back to top</a></p>
+
+            <hr style="margin-bottom: 100px;">
+
+            <nav id="navbar" class="navbar navbar-fixed-bottom navbar-light bg-faded">
+                <div class="container">
+                    <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item"><a class="nav-link" href="#top" data-toggle="tooltip" data-placement="bottom" title="Block Party Sponsorship">💰</a></li>
+                        {% for category in site.data.sponsor %}
+                            <li class="nav-item"><a class="nav-link" href="#{{category.title | slugify}}"  data-toggle="tooltip" data-placement="bottom" title="{{category.title}}">{{category.emoji}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+
+            <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title" id="exampleModalLabel">Sponsor <strong class="modal-item"></strong> for <strong class="modal-amount"></strong></h4>
+                </div>
+                <form action="https://formspree.io/petercooperblockparty@gmail.com" method="POST">
+                    <div class="modal-body">
+                            <input type="hidden" name="_next" value="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830" />
+                            <input type="hidden" name="_subject" value="[Block Party] New Sponsorship" />
+                            <input type="hidden" name="item" class="form-item" value="" />
+                            <input type="hidden" name="amount" class="form-amount" value="" />
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <fieldset class="form-group">
+                                <label for="name">Sponsor Name or Organization</label>
+                                <input type="text" class="form-control" id="name" name="name">
+                                <small class="text-muted">Leave blank if you wish to remain anonymous.</small>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="email">Your email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="" name="_replyto" required>
+                            </fieldset>
+                            <hr>
+                        <div class="alert alert-warning" role="alert"><strong>You're almost done!</strong> Click below to submit your sponsorship details to us, and be taken to CUAA's <em>Fractured Atlas</em> page where you can securely process your tax-deductible contribution of <strong class="modal-amount"></strong>.</div>
+                    </div>
+                    <div class="modal-footer text-xs-center">
+                      <input type="submit" class="btn btn-primary btn-lg btn-success donate-button" value="Donate at Fractured Atlas">
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.1.0/jquery.countdown.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

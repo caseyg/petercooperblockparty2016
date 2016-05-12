@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Featuring | Peter Cooper Block Party 2016</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" crossorigin="anonymous">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-offset="50" data-target="#navbar" id="top">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        {% include nav.html %}
+
+        <div class="jumbotron jumbotron-fluid" style="min-height:600px; background-color:yellow; color: #000;">
+            <div class="container intro-text">
+                <h3><strong>Under Construction:</strong></h3>
+                <h1 class="display-3">What's Going On Here?</h1>
+                <p class="lead">This year's Block Party will feature many student and alumni projects. Check back for updates as the programming is confirmed.</p>
+                <img src="img/quarrier.png">
+                <img src="img/underconstruction.gif">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card-columns">
+                {% for feature in site.data.featuring %}
+                        <div class="card text-xs-center">
+                          {% if feature.image %}<img class="card-img-top" src="img/{{feature.image}}">{% else %}<img class="card-img-top" src="https://placeholdit.imgix.net/~text?&bg=ffff00&w=400&h=400">{% endif %}
+                          <div class="card-block">
+                            <h4 class="card-title">{{feature.title }}</h4>
+                            {% if feature.description %}<p class="card-text">{{feature.description}}</p>{% endif %}
+                          </div>
+                        </div>
+                {% endfor %}
+            </div>
+
+            <hr>
+
+            <p class="text-xs-center"><a href="#top">Back to top</a></p>
+
+            <hr style="margin-bottom: 100px;">
+
+            <nav id="navbar" class="navbar navbar-fixed-bottom navbar-light bg-faded hidden-sm-down" style="background-image:url(img/sparkle.gif);color:#fff;">
+                <h1 id="countdown" class="text-xs-center"></h1>
+            </nav>
+
+        </div>
+
+            <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title" id="exampleModalLabel">Sponsor <strong class="modal-item"></strong> for <strong class="modal-amount"></strong></h4>
+                </div>
+                <form action="https://formspree.io/petercooperblockparty@gmail.com" method="POST">
+                    <div class="modal-body">
+                            <input type="hidden" name="_next" value="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830" />
+                            <input type="hidden" name="_subject" value="[Block Party] New Sponsorship" />
+                            <input type="hidden" name="item" class="form-item" value="" />
+                            <input type="hidden" name="amount" class="form-amount" value="" />
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <fieldset class="form-group">
+                                <label for="name">Sponsor Name or Organization</label>
+                                <input type="text" class="form-control" id="name" name="name">
+                                <small class="text-muted">Leave blank if you wish to remain anonymous.</small>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="email">Your email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="" name="_replyto" required>
+                            </fieldset>
+                            <hr>
+                        <div class="alert alert-warning" role="alert"><strong>You're almost done!</strong> Click below to submit your sponsorship details to us, and be taken to CUAA's <em>Fractured Atlas</em> page where you can securely process your tax-deductible contribution of <strong class="modal-amount"></strong>.</div>
+                    </div>
+                    <div class="modal-footer text-xs-center">
+                      <input type="submit" class="btn btn-primary btn-lg btn-success donate-button" value="Donate at Fractured Atlas">
+                    </div>
+                </form>
+              </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
+        <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.1.0/jquery.countdown.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

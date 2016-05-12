@@ -14,7 +14,6 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    text-align: center;
 }
 
 /*
@@ -291,4 +290,29 @@ textarea {
     border-radius: 5px;
     text-decoration: none;
     margin-bottom:20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card-text a:link, .card-text a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+body {
+  position: relative;
+}
+
+.intro-text {
+    margin-top: 150px;
+}
+
+#main-nav {
+    z-index: 1000;
+}
+
+#navbar {
+    margin-top:50px;
 }
