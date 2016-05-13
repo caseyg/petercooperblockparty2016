@@ -15,5 +15,6 @@ env:
 sudo: false 
 
 after_success:
-  "cd ./_site && find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD \
-  --ftp-create-dirs -T {} ftp://ftp://petercooperblockparty.com/petercooperblockparty.com/public/2016/{}"
+- cd ./_site
+- find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp://petercooperblockparty.com/petercooperblockparty.com/public/2016/{} 
+  \;
