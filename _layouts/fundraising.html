@@ -100,7 +100,7 @@
             <nav id="navbar" class="navbar navbar-fixed-bottom navbar-light bg-faded">
                 <div class="container">
                     <ul class="nav nav-pills" role="tablist">
-                    <li class="nav-item"><a class="nav-link" href="#top" data-toggle="tooltip" data-placement="bottom" title="Block Party Sponsorship">💰</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#top" data-toggle="tooltip" data-placement="top" title="Block Party Sponsorship">💰</a></li>
                         {% for category in site.data.sponsor %}
                             <li class="nav-item"><a class="nav-link" href="#{{category.title | slugify}}"  data-toggle="tooltip" data-placement="bottom" title="{{category.title}}">{{category.emoji}}</a></li>
                         {% endfor %}
