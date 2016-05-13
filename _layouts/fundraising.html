@@ -17,7 +17,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
+                <div class="col-xs-12 col-sm-6">
                     <h2>How It Works</h2>
 
                     <p class="lead">The Peter Cooper Block Party 2016, hosted by the <a href="http://cooperalumni.org">Cooper Union Alumni Association</a>, is taking place in coordination with an Alumni Awards Ceremony dinner and  <a href="http://support.cooper.edu">Alumni Affairs</a> Reunion Weekend...<strong>it will take all-hands-on-deck to bring the Cooper community together for these events!</strong></p>
@@ -26,7 +26,7 @@
 
                     <p>The CUAA is currently processing funds through fiscal sponsor Fractured Atlas as it moves towards 501c3 status. Please email <a href="mailto:petercooperblockparty@gmail.com">petercooperblockparty@gmail.com</a> if you have any questions about how to donate.</a></p>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-xs-12 col-sm-6">
                     <h2>Named Sponsorships</h2>
 
                     <p class="lead">Below you will find over <strong>20 Named Sponsorship opportunities</strong>. We will proudly acknowledge your name, company, or organization in relation to the Block Party program you sponsor on print and digital materials as well as signage.</p>
@@ -102,7 +102,7 @@
                     <ul class="nav nav-pills" role="tablist">
                     <li class="nav-item"><a class="nav-link" href="#top" data-toggle="tooltip" data-placement="top" title="Block Party Sponsorship">💰</a></li>
                         {% for category in site.data.sponsor %}
-                            <li class="nav-item"><a class="nav-link" href="#{{category.title | slugify}}"  data-toggle="tooltip" data-placement="bottom" title="{{category.title}}">{{category.emoji}}</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#{{category.title | slugify}}"  data-toggle="tooltip" data-placement="top" title="{{category.title}}">{{category.emoji}}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
