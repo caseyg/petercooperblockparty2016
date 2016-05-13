@@ -1,87 +1,28 @@
-- title: Fifth Wave Babes
-  description: 
-  tags: Music, Art, Engineering, Students
-- title: Cooper Rad.io
-  description: 
-  tags: 
-- title: The Pioneer
-  description: 
-  tags: 
-- title: Coffee Club
-  description: 
-  tags: 
-- title: Virtual Reality Experience
-  image: virtualreality.jpg
-  description: "An outdoor installation by <strong>Moises Sanabria <sup>A '13</sup></strong> and <strong>Alyssa Davis <sup>CivE '13</sup></strong> of collective <a href='http://www.art404.com/'>Art404</a>."
-  tags: 
-- title: C.U. History Project
-  description: 
-  tags: 
-- title: C.U. Alumni Association
-  description: 
-  tags: 
-- title: Steel Bridge
-  description: 
-  tags: 
-- title: Foundation Building Model
-  description: 
-  tags: 
-- title: ASC Kissing Booth
-  description: 
-  tags: 
-- title: Chinese Yo-Yo
-  description: 
-  tags: 
-- title: Student Affairs
-  description: 
-  tags: 
-- title: Cooper Word Thing
-  description: 
-  tags: 
-- title: Inflatables Competition
-  description: 
-  tags: 
-- title: Stuff Swap
-  description: 
-  tags: 
-- title: Friends of the Library
-  description: 
-  tags: 
-- title: Yearbook Reading Area
-  description: 'Peruse yearbooks old and new, brought to you by the <a href="http://library.cooper.edu/archive/cooper_archives_mission_frameset.html"><strong>Cooper Union Archives</strong></a> and Archives Assistant <a href="http://cooper.edu/academics/people/katie-blumenkrantz"><strong>Katie Blumenkrantz</strong></a>.'
-  image: yearbooks.jpg
-- title: Family Craft Table
-  description: 
-  tags: 
-- title: Astrological Readings
-  amount: "100"
-  description: "<strong><a href='http://alicesparklykat.com'>Alice Sparkly Kat</a> <sup>A'13</sup></strong> is <a href='http://alicesparklykat.com/astrology.html'>an astrologist</a> who believes the hermetic and autonomous language of astrology is a valuable tool for examining and improving the artistic process."
-  image: astrology.jpg
-  tags: 
-- title: DJ Cuteboys
-  description: 
-  tags: 
-- title: Julie Harris
-  description: 
-  tags: 
-- title: Kelly Zack
-  description: 
-  tags: 
-- title: Stuff Swap
-  description: 
-  tags: 
-- title: Reflections
-  description: 
-  tags: 
-- title: Cooper Union Alumni Association Council
-  description: 
-  tags: 
-- title: Student-Led EOYS Tours
-  image: eoys.jpg
-  tags: 
-- title: Studio 523
-  description: 
-  tags: 
-- title: Sean Cusack
-  description: 
-  tags: 
+- {title: "ASC Kissing Booth", description: "Come kiss your favorite <strong>Art Student Council</strong> members and learn more about student government."}
+- {title: "Astrological Readings", description: "<strong><a href='http://alicesparklykat.com'>Alice Sparkly Kat</a> <sup>A'13</sup></strong> is <a href='http://alicesparklykat.com/astrology.html'>an astrologist</a> who believes the hermetic and autonomous language of astrology is a valuable tool for examining and improving the artistic process.", image: astrology.jpg}
+- {title: "Ballroom Dancing", description: "A performance by Cooper's <strong>Ballroom Dancing Club</strong> featuring dance couples: <strong>Deanna Kovalcin</strong> and <strong>Matt Ferreira</strong>, <strong>Dennis Burgner</strong> and <strong>Camille Chow</strong>, and
+<strong>Zachary Chang</strong> and <strong>Michelle Deng</strong>"}
+- {title: "C.U. Alumni Association", description: 'Meet members of the official <a href="http://cooperalumni.org"><strong>Cooper Union Alumni Association</strong></a> and learn how you can joing them in &ldquo;preserving, protecting and promoting&rdquo; the institution.'}
+- {title: "C.U. History Project", description: 'The <strong>Cooper Union History Project</strong> is a joint effort with the goals of preserving and sharing Cooper’s history, through collecting oral histories among other projects.'}
+- {title: "Chinese Yo-Yo Club", description: 'Demos and lessons from members of Cooper&apos;s <a href="https://jac.cooper.edu/club/137"><strong>Chinese Yo-Yo Club</strong></a>.'}
+- {title: "Coffee Club"}
+- {title: "Cooper Rad.io"}
+- {title: "Cooper Word Thing"}
+- {title: "DJ Cuteboys"}
+- {title: "Family Craft Table"}
+- {title: "Fifth Wave Babes"}
+- {title: "Friends of the Library"}
+- {title: "Gallery 523"}
+- {title: "Inflatables Competition"}
+- {title: "Julie Harris"}
+- {title: "Kelly Zack"}
+- {title: "NONE", description: Austin}
+- {title: "Reflections II", image: reflections.jpg, description: "This run of <em>Reflections</em> publications will chronologically collate primary documents from across the community, putting the 2015-16 academic year in context. A PDF will be made available online."}
+- {title: "Sean Cusack"}
+- {title: "Steel Bridge"}
+- {title: "Student Affairs"}
+- {title: "Student-Led EOYS Tours", image: eoys.jpg}
+- {title: "Stuff Swap"}
+- {title: "The Pioneer"}
+- {title: "Virtual Reality Experience", description: 'An outdoor installation by <strong>Moises Sanabria <sup>A ''13</sup></strong> and <strong>Alyssa Davis <sup>CivE ''13</sup></strong> of collective <a href=''http://www.art404.com/''>Art404</a>.', image: virtualreality.jpg}
+- {title: "Yearbook Reading Area", description: 'Peruse yearbooks old and new, brought to you by the <a href="http://library.cooper.edu/archive/cooper_archives_mission_frameset.html"><strong>Cooper Union Archives</strong></a> and Archives Assistant <a href="http://cooper.edu/academics/people/katie-blumenkrantz"><strong>Katie Blumenkrantz</strong></a>.', image: yearbooks.jpg}
