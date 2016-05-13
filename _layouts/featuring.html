@@ -27,8 +27,8 @@
                 <h3><strong>Under Construction:</strong></h3>
                 <h1 class="display-3">What's Going On Here?</h1>
                 <p class="lead">This year's Block Party will feature many student and alumni projects. Check back for updates as the programming is confirmed.</p>
-                <img src="img/quarrier.png">
-                <img src="img/underconstruction.gif">
+                <img src="{{site.baseurl}}/img/quarrier.png">
+                <img src="{{site.baseurl}}/img/underconstruction.gif">
             </div>
         </div>
 
@@ -36,7 +36,7 @@
             <div class="card-columns">
                 {% for feature in site.data.featuring %}
                         <div class="card text-xs-center">
-                          {% if feature.image %}<img class="card-img-top" src="img/{{feature.image}}">{% else %}<img class="card-img-top" src="https://placeholdit.imgix.net/~text?&bg=ffff00&w=400&h=400">{% endif %}
+                          {% if feature.image %}<img class="card-img-top" src="{{site.baseurl}}/img/{{feature.image}}">{% else %}<img class="card-img-top" src="https://placeholdit.imgix.net/~text?&bg=ffff00&w=400&h=400">{% endif %}
                           <div class="card-block">
                             <h4 class="card-title">{{feature.title }}</h4>
                             {% if feature.description %}<p class="card-text">{{feature.description}}</p>{% endif %}
