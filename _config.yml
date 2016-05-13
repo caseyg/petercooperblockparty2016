@@ -1,3 +1,5 @@
 exclude: [vendor]
 permalink: :title
 baseurl: http://petercooperblockparty.com/2016
+gems:
+  - jekyll-redirect-from
