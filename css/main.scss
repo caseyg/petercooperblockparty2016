@@ -1,0 +1,60 @@
+---
+---
+
+/*
+// Extra small devices (portrait phones, less than 34em)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em) { ... }
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) { ... }
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) { ... }
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) { ... }
+*/
+
+.donate {
+    background: lime;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 10px orange;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom:20px;
+}
+
+.card-text a:link, .card-text a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+body {
+  position: relative;
+}
+
+#main-nav {
+    z-index: 1000;
+}
+
+#navbar {
+    margin-top:50px;
+}
+
+img {
+  max-width:100%
+}
+
+@media (min-width: 48em) {
+  .intro-text {
+    margin-top: 150px;
+  }
+  .page-header {
+    min-height:600px;     
+  }
+}
