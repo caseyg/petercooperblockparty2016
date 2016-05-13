@@ -27,7 +27,7 @@
     amount: "1,500"
     image: baggu.jpg
     description: A run of 500 custom <strong><a href="http://baggu.com/">Baggu</a></strong> bags, designed by <strong>Julie Harris <sup>A'13</sup></strong>.
-    sponsor: Sponsored in part by Cooper Union Student Affairs and 2016 Orientation.
+    sponsor: Sponsored in part by <strong>CUAA</strong> and <strong>Cooper Union Student Affairs and 2016 Orientation</strong>.
   - title: "Silkscreened T-Shirts"
     amount: "1,000"
     image: shirt.jpg
@@ -80,7 +80,9 @@
   - title: Sidewalk Chalk
     amount: "100"
     image: chalk.jpg
+    sponsor: Sponsorships claimed by <strong>Ms Giordano</strong>, <strong>Chicago Alumni</strong>, and <strong>Tara Incantalupo</strong>.
     description: Help make the block party vibrant! This sponsorship will cover <strong>community art table supplies</strong>.
+    soldout: true
 - title: Bands + DJs
   emoji: 💃
   description: We're scheduling a full day of student bands, DJs, and performances. Stay tuned for the lineup.

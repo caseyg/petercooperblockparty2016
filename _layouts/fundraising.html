@@ -66,9 +66,11 @@
                           <div class="card-block">
                             <h4 class="card-title">{{item.title }}</h4>
                             {% if item.description %}<p class="card-text">{{item.description}}</p>{% endif %}
-                            <button type="button" class="btn btn-primary btn-block btn-success" data-toggle="modal" data-target="#exampleModal" data-item="{{item.title}}" data-amount="{{item.amount}}">Sponsor <strong>${{item.amount}}</strong></button>
+                            {% if item.soldout != true %}
+                                <button type="button" class="btn btn-primary btn-block btn-success" data-toggle="modal" data-target="#exampleModal" data-item="{{item.title}}" data-amount="{{item.amount}}">Sponsor <strong>${{item.amount}}</strong></button>
+                            {% endif %}
                           </div>
-                          {% if item.sponsor %}<div class="card-header card-warning" style="color:#fff;">{{item.sponsor}}</div>{% endif%}
+                        {% if item.sponsor %}<div class="card-header card-warning" style="color:#fff;">{{item.sponsor}}</div>{% endif%}
                         </div>
                 {% endfor %}
             </div>
