@@ -1,12 +1,9 @@
 - title: Home
-  url: /2016/
+  rel-url: /
 - title: Featuring
-  url: /2016/featuring.html
+  rel-url: /featuring
 - title: Fundraising
-  url: /2016/fundraising.html
-- title: Donate
-  url: https://www.fracturedatlas.org/site/fiscal/profile?id=9830
-  tooltip: go to fracturedatlas.org
+  rel-url: /fundraising
 - title: Facebook
   url: https://www.facebook.com/events/114803132265633/
   tooltip: go to facebook.com

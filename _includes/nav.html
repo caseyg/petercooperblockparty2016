@@ -2,7 +2,7 @@
 	<div class="container">
 	    <ul class="nav navbar-nav">
 	        {% for link in site.data.nav %}
-	            <li class="nav-item{% if page.title == link.title %} active{% endif %}"><a class="nav-link" href="{{link.url}}" {% if link.tooltip %}data-toggle="tooltip" data-placement="bottom" title="{{link.tooltip}}"{% endif %}>{{link.title}}</a></li>
+	            <li class="nav-item{% if page.title == link.title %} active{% endif %}"><a class="nav-link" href="{% if link.rel-url %}{{site.baseurl}}{{link.rel-url}}{% endif %}{% if link.url %}{{link.url}}{% endif %}" {% if link.tooltip %}data-toggle="tooltip" data-placement="bottom" title="{{link.tooltip}}"{% endif %}>{{link.title}}</a></li>
 	        {% endfor %}
 	    </ul>
     </div>
