@@ -1,27 +1,28 @@
-- {title: "ASC Kissing Booth", description: "Come kiss your favorite <strong>Art Student Council</strong> members and learn more about student government."}
+- {title: "ASC Kissing Booth", description: "Come kiss your favorite <strong>Art Student Council</strong> members and learn more about student government.", image: kissingbooth.jpg}
 - {title: "Astrological Readings", description: "<strong><a href='http://alicesparklykat.com'>Alice Sparkly Kat</a> <sup>A'13</sup></strong> is <a href='http://alicesparklykat.com/astrology.html'>an astrologist</a> who believes the hermetic and autonomous language of astrology is a valuable tool for examining and improving the artistic process.", image: astrology.jpg}
-- {title: "Ballroom Dancing", description: "A performance by Cooper's <strong>Ballroom Dancing Club</strong> featuring dance couples: <strong>Deanna Kovalcin</strong> and <strong>Matt Ferreira</strong>, <strong>Dennis Burgner</strong> and <strong>Camille Chow</strong>, and <strong>Zachary Chang</strong> and <strong>Michelle Deng</strong>"}
-- {title: "C.U. Alumni Association", description: 'Meet members of the official <a href="http://cooperalumni.org"><strong>Cooper Union Alumni Association</strong></a> and learn how you can joing them in &ldquo;preserving, protecting and promoting&rdquo; the institution.'}
-- {title: "C.U. History Project", description: 'The <strong>Cooper Union History Project</strong> is a joint effort with the goals of preserving and sharing Cooper’s history, through collecting oral histories among other projects.'}
-- {title: "Chinese Yo-Yo Club", description: 'Demos and lessons from members of Cooper&apos;s <a href="https://jac.cooper.edu/club/137"><strong>Chinese Yo-Yo Club</strong></a>.'}
-- {title: "Coffee Club", description: 'Have a coffee, prepared by Cooper&apos;s own <a href="https://jac.cooper.edu/club/60"><strong>Coffee Club</strong></a>.'}
-- {title: "Cooper Rad.io", description: "Podcasts, short stories, and audio from The Cooper Union."}
-- {title: "Cooper Word Thing", descriptions}
-- {title: "DJ Cuteboys"}
-- {title: "Family Craft Table"}
-- {title: "Fifth Wave Babes"}
-- {title: "Friends of the Library"}
-- {title: "Gallery 523"}
-- {title: "Inflatables Competition"}
-- {title: "Julie Harris"}
-- {title: "Community Table", "description": 'Bring your family to draw, paint, and chalk on paper and pavement. Managed by CUAA VP of Events and party permit maestro <strong>Kelly Ochiuzzo Zack <sup>A’89</sup></strong>.'}
-- {title: "NONE", description: Austin}
+- {title: "Ballroom Dancing", description: "A performance by Cooper's <strong>Ballroom Dancing Club</strong> featuring dance couples: <strong>Deanna Kovalcin <sup>ME'16</sup></strong> and <strong>Matt Ferreira <sup>EE'19</sup></strong>, <strong>Dennis Burgner <sup>CE'18</sup></strong> and <strong>Camille Chow <sup>EE'19</sup></strong>, and <strong>Zachary Chang <sup>CE'16</sup></strong> and <strong>Michelle Deng <sup>A'16</sup></strong>.", image: ballroom.jpg}
+- {title: "C.U. Alumni Association", description: 'Meet members of the official <a href="http://cooperalumni.org"><strong>Cooper Union Alumni Association</strong></a> and learn how you can joing them in &ldquo;preserving, protecting and promoting&rdquo; the institution.', image: alumni.jpg}
+- {title: "C.U. History Project", description: 'The <strong>Cooper Union History Project</strong> is a joint effort with the goals of preserving and sharing Cooper’s history, through collecting oral histories among other projects.', image: history.jpg}
+- {title: "Chinese Yo-Yo Club", description: 'Demos and lessons from members of Cooper&apos;s <a href="https://jac.cooper.edu/club/137"><strong>Chinese Yo-Yo Club</strong></a>.', image: yoyo.jpg}
+- {title: "Coffee Club", description: 'Have a coffee, prepared by Cooper&apos;s own <a href="https://jac.cooper.edu/club/60"><strong>Coffee Club</strong></a>.', image: coffeeclub.jpg}
+- {title: "Community Table", "description": 'Bring your family to draw, paint, and chalk on paper and pavement. Managed by CUAA VP of Events and party permit maestro <strong>Kelly Ochiuzzo Zack <sup>A’89</sup></strong>.', image: arttable.jpg}
+- {title: "Cooper Rad.io", description: "Podcasts, short stories, and audio from The Cooper Union.", image: radio.jpg}
+- {title: "Cooper Word Thing", image: poetry.jpg}
+- {title: "Cuteboys", image: cuteboys.jpg}
+- {title: "Fifth Wave Babes", image: fifthwavebabes.jpg}
+- {title: "Friends of the Library", image: library.jpg}
+- {title: "Gallery 523", image: gallery.jpg}
+- {title: "Inflatables Competition", image: inflatables.jpg}
+- {title: "Julie Harris", image: julie.jpg}
+- {title: "Mission Impossible", description: "He&apos;s <strong>Peter Buckley</strong>, humanities faculty and official historian of Cooper Union, and <em>he&apos;s on a mission</em>...committee to help articulate what this institution is actually about. Help him out!", image: buckley.jpg}
+#- {title: "NONE", description: Austin}
 - {title: "Reflections II", image: reflections.jpg, description: "This run of <em>Reflections</em> publications will chronologically collate primary documents from across the community, putting the 2015-16 academic year in context. A PDF will be made available online."}
-- {title: "Sean Cusack"}
-- {title: "Steel Bridge"}
-- {title: "Student Affairs"}
+- {title: "Slauson Malone", image: slauson.jpg}
+- {title: "Steel Bridge", image: steelbridge.jpg}
+- {title: "Student Affairs", image: res.jpg}
 - {title: "Student-Led EOYS Tours", image: eoys.jpg}
-- {title: "Stuff Swap"}
-- {title: "The Pioneer"}
+- {title: "Stuff Swap", image: swap.jpg}
+- {title: "The Pioneer", image: pioneer.jpg}
+- {title: "Victoria Sobel and Casey Gollan", image: caseyvic.jpg}
 - {title: "Virtual Reality Experience", description: "An outdoor installation by <strong>Moises Sanabria</strong> and <strong>Alyssa Davis</strong> of <a href='http://www.art404.com/'>Art404</a>.", image: virtualreality.jpg}
 - {title: "Yearbook Reading Area", description: 'Peruse yearbooks old and new, brought to you by the <a href="http://library.cooper.edu/archive/cooper_archives_mission_frameset.html"><strong>Cooper Union Archives</strong></a> and Archives Assistant <a href="http://cooper.edu/academics/people/katie-blumenkrantz"><strong>Katie Blumenkrantz</strong></a>.', image: yearbooks.jpg}
