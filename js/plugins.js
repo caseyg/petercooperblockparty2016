@@ -41,7 +41,7 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-$("#countdown").countdown("2016/06/05", function(event) {
+$("#countdown").countdown("2016/09/03", function(event) {
   $(this).text(
     event.strftime('%D days until the block party!')
   );
