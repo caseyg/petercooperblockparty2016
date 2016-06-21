@@ -12,10 +12,48 @@
                 <h3><strong>Peter Cooper Block Party 2016</strong></h3>
                 <h1 class="display-3">Fundraising</h1>
                 <p>September 3rd, 2016 &bull; 7 East 7th St.</p>
+                <br>
+                <p><a class="btn btn-lg btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830"><strong>Donate</strong> via Fractured Atlas</a></p>
             </div>
         </div>
 
         <div class="container">
+
+            {% for category in site.data.sponsor %}
+            <hr id="{{category.title | slugify}}">
+            <div class="jumbotron">
+              <div class="container-fluid text-xs-center">
+                <h2 class="display-4">{{category.emoji}} {{category.title  }} <span class="hidden-sm-down">{{category.emoji}}</span></h2>
+                {% if category.description %}<p class="lead">{{category.description}}</p>{% endif %}
+                </div>
+            </div>
+            <div class="card-columns">
+                {% for item in category.items %}
+                        <div class="card text-xs-center">
+                          {% if item.image %}
+                            {% if item.soldout %}
+                              <img class="card-img-top" style="background-image:url({{site.baseurl}}/img/squares/{{item.image}})" src="{{site.baseurl}}/img/claimed.gif">
+                            {% else %}
+                              <img class="card-img-top" src="{{site.baseurl}}/img/squares/{{item.image}}">
+                            {% endif %}
+                          {% endif %}
+                          <div class="card-block">
+                            <h4 class="card-title">{{item.title }}</h4>
+                            {% if item.description %}<p class="card-text">{{item.description}}</p>{% endif %}
+                            {% if item.soldout %}
+                                <button class="btn btn-secondary btn-block" disabled>CLAIMED —  <strong>${{item.amount}}</strong></button>
+                            {% else %}
+                                <button type="button" class="btn btn-primary btn-block btn-success" data-toggle="modal" data-target="#exampleModal" data-item="{{item.title}}" data-amount="{{item.amount}}">Sponsor <strong>${{item.amount}}</strong></button>
+                            {% endif %}
+                          </div>
+                        {% if item.sponsor %}<div class="card-header card-warning" style="color:#fff;">{{item.sponsor}}</div>{% endif%}
+                        </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+
+            <hr>
+
             <div class="row">
                 <div class="col-xs-12 col-sm-6">
                     <h2>How It Works</h2>
@@ -29,57 +67,15 @@
                 <div class="col-xs-12 col-sm-6">
                     <h2>Named Sponsorships</h2>
 
-                    <p class="lead">Below you will find over <strong>20 Named Sponsorship opportunities</strong>. We will proudly acknowledge your name, company, or organization in relation to the Block Party program you sponsor on print and digital materials as well as signage.</p>
+                    <p class="lead">Here you will find over <strong>20 Named Sponsorship opportunities</strong>. We will proudly acknowledge your name, company, or organization in relation to the Block Party program you sponsor on print and digital materials as well as signage.</p>
 
-                    <p>After clicking the "Sponsor" buttons below, you can submit your information to us, and then you will be redirected to Fractured Atlas to complete your donation.</p>
+                    <p>After clicking the "Sponsor" buttons, you can submit your information to us, and then you will be redirected to Fractured Atlas to complete your donation.</p>
 
                     <p>Once your contribution has been processed we will be in touch, and you can provide us with logo files if applicable.</p>
 
                     <p>Note that sponsorship tiers reflect the price of the naming opportunity, not the item cost. At the bottom of this page you can browse a more detailed budget.</p>
                 </div>
             </div>
-            <hr>
-
-            <div class="row">
-                <div class="col-sm-12 text-xs-center">
-                    <h2>Click below to donate directly</h2><br>
-                    <p><a class="btn btn-lg btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$1000</strong></a></p>
-                    <p><a class="btn btn-md btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$500</strong></a></p>
-                    <p><a class="btn btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$250</strong></a></p>
-                    <p><a class="btn btn-sm btn-success" href="https://www.fracturedatlas.org/site/fiscal/donate_noscript_form?fs_project_id=9830">Donate <strong>$100</strong></a></p>
-
-                    <p>Or read on to claim sponsorship opportunities...</p>
-                </div>
-            </div>
-
-            <hr>
-
-            {% for category in site.data.sponsor %}
-            <hr id="{{category.title | slugify}}">
-            <div class="jumbotron">
-              <div class="container-fluid text-xs-center">
-                <h2 class="display-4">{{category.emoji}} {{category.title  }} <span class="hidden-sm-down">{{category.emoji}}</span></h2>
-                {% if category.description %}<p class="lead">{{category.description}}</p>{% endif %}
-                </div>
-            </div>
-            <div class="card-columns">
-                {% for item in category.items %}
-                        <div class="card text-xs-center">
-                          {% if item.image %}<img class="card-img-top" src="{{site.baseurl}}/img/squares/{{item.image}}">{% endif %}
-                          <div class="card-block">
-                            <h4 class="card-title">{{item.title }}</h4>
-                            {% if item.description %}<p class="card-text">{{item.description}}</p>{% endif %}
-                            {% if item.soldout %}
-                                <button class="btn btn-secondary btn-block" disabled><strong>SOLD OUT</strong></button>
-                            {% else %}
-                                <button type="button" class="btn btn-primary btn-block btn-success" data-toggle="modal" data-target="#exampleModal" data-item="{{item.title}}" data-amount="{{item.amount}}">Sponsor <strong>${{item.amount}}</strong></button>
-                            {% endif %}
-                          </div>
-                        {% if item.sponsor %}<div class="card-header card-warning" style="color:#fff;">{{item.sponsor}}</div>{% endif%}
-                        </div>
-                {% endfor %}
-            </div>
-            {% endfor %}
 
             <hr id="budget">
 

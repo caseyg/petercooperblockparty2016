@@ -1,7 +1,7 @@
 # - category:
 #   title: Category
 #   items: Category description goes here.
-#   - title: 
+#   - title:
 #     amount: ""
 #     description: Description goes here.
 - title: Publications
@@ -9,9 +9,10 @@
   description: These free zines, readers, and publications will highlight, collate, and anthologize much of the goings on from this past year at Cooper. From poetry to <em>The Pioneer</em> to CSCU's Consent Decree...and much more.
   items:
   - title: Reflections II
-    amount: "500"
+    amount: "1000"
     image: reflections.jpg
     description: This run of <em>Reflections</em> publications will chronologically collate primary documents from across the community, putting the 2015-16 academic year in context. A PDF will be made available online.
+    soldout: true
   - title: Info Zine Table
     amount: "250"
     image: infotable.jpg
@@ -19,14 +20,15 @@
   - title: Info Zine
     image: infozine.jpg
     amount: "100"
-    description: "With this sponsorship, help fund a print run of one informational zine."
+    description: "With this sponsorship, help fund a print run of one informational zine. <br><br><strong>3 Sponsorships Available!</strong>"
 - title: Cooper Stuff
   emoji: 👕
   items:
   - title: Reusable Bags
-    amount: "500"
+    amount: "3000"
     image: baggu.jpg
     description: A run of 500 custom <strong><a href="http://baggu.com/">Baggu</a></strong> bags, designed by <strong>Julie Harris <sup>A'13</sup></strong>.
+    soldout: true
     sponsor: Sponsored in part by <strong>CUAA</strong> and <strong>Cooper Union Student Affairs and 2016 Orientation</strong>.
   - title: "Silkscreened T-Shirts"
     amount: "250"
@@ -36,6 +38,8 @@
     amount: "100"
     image: buttons.jpg
     description: Limited edition, small-run <strong>enamel pins</strong> of iconic Cooper features, and <strong>buttons</strong> for every Cooper group in attendance.
+    soldout: true
+    sponsor: Sponsored by <strong><a href="Artifactuality">Artifactuality</a></strong>.
 - title: Rentals + Supplies
   emoji: 🎙
   items:
@@ -45,12 +49,12 @@
     image: stage.jpg
   - title: Picnic Tables
     amount: "250"
-    description: "Sponsor some places to sit down and hang out, from <strong>Classic Party Rentals</strong>."
+    description: "Sponsor some places to sit down and hang out, from <strong>Classic Party Rentals</strong>. <br><br><strong>2 Sponsorships Available!</strong>"
     image: big-picnic.jpg
   - title: Balloons
     amount: "100"
     image: balloons.jpg
-    description: "It's not a party until we bring out the balloon arch, hand-woven by <strong>Emily Adamo <sup>A'17</sup></strong>."
+    description: "It's not a party until we bring out the balloon arch, hand-woven by <strong>Emily Adamo <sup>A'17</sup></strong>. <br><br><strong>3 Sponsorships Available!</strong>"
 - title: Permits + Insurance
   emoji: 📝
   items:
@@ -58,6 +62,7 @@
     amount: "1,000"
     image: permits.jpg
     description: "This sponsorship covers the permits we need from <strong>New York City</strong> for partying and making some noise in the space out front of Cooper and up alongside the Collonade."
+    soldout: true
   - title: Fiscal Sponsorship Fees
     amount: "500"
     image: fracturedatlas.jpg
@@ -69,42 +74,48 @@
 - title: Activities
   emoji: 🎨
   items:
-  - title: Student-Led EOYS Tours
-    amount: "500"
-    image: eoys.jpg
-    description: We'd like to pay students to give <strong>guided tours</strong> — to the public, the community, and incoming students — of this year's exhibition of student work.
-  - title: Inflatables Contest
-    amount: "250"
-    image: inflatables.jpg
-    description: In lieu of a bouncy house, join the first annual <strong>Free As Air And Water Inflatables Contest</strong>. We'll provide balloons, bring your own air.
   - title: Sidewalk Chalk
-    amount: "100"
+    amount: "300"
     image: chalk.jpg
     sponsor: Sponsorships claimed by <strong>Ms Giordano</strong>, <strong>Chicago Alumni</strong>, and <strong>Tara Incantalupo</strong>.
     description: Help make the block party vibrant! This sponsorship will cover <strong>community art table supplies</strong>.
     soldout: true
+  - title: Inflatables Contest
+    amount: "250"
+    image: inflatables.jpg
+    description: In lieu of a bouncy house, join the first annual <strong>Free As Air And Water Inflatables Contest</strong>. We'll provide balloons, bring your own air.
+  - title: Editioned Enamel Pins
+    amount: "100"
+    image: pins.jpg
+    description: "We're producing small runs of Cooper-themed enamel pins designed by alumni. <br><br><strong>4 Sponsorships Available!</strong>"
 - title: Bands + DJs
   emoji: 💃
   description: We're scheduling a full day of student bands, DJs, and performances. Stay tuned for the lineup.
   items:
   - title: Student Bands
-    amount: "500"
-    image: music.jpg
-  - title: Student DJs + A/V
     amount: "250"
+    image: music.jpg
+    description: "<strong>2 Sponsorships Available!</strong>"
+  - title: Student DJs + A/V
+    amount: "100"
     image: dj.jpg
+    description: "<strong>2 Sponsorships Available!</strong>"
   - title: Student Performances
     amount: "100"
     image: bands.jpg
+    soldout: true
+    sponsor: Sponsored by <strong>Mary K. Lynch</strong>.
 - title: Snax + Drinx
   emoji: 🍰
   items:
-  - title: Cake
-    amount: "500"
+  - title: Cake + Dessert
+    amount: "250"
     image: cake.jpg
-  - title: Falafel
+    description: "<strong>2 Sponsorships Available!</strong>"
+  - title: Falafel + Food
     amount: "250"
     image: falafel.jpg
+    description: "<strong>2 Sponsorships Available!</strong>"
   - title: Coffee
     amount: "100"
     image: coffee.jpg

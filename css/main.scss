@@ -34,6 +34,15 @@
     text-decoration: underline;
 }
 
+.card-warning a:link, .card-warning a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+.card-img-top {
+  background-size: contain;
+}
+
 body {
   position: relative;
 }
@@ -55,7 +64,7 @@ img {
     margin-top: 150px;
   }
   .page-header {
-    min-height:600px;     
+    min-height:600px;
   }
 }
 
