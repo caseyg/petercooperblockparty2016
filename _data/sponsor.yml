@@ -29,17 +29,19 @@
     image: baggu.jpg
     description: A run of 500 custom <strong><a href="http://baggu.com/">Baggu</a></strong> bags, designed by <strong>Julie Harris <sup>A'13</sup></strong>.
     soldout: true
-    sponsor: Sponsored in part by <strong>CUAA</strong> and <strong>Cooper Union Student Affairs and 2016 Orientation</strong>.
+    sponsor: Sponsored by <strong>CUAA</strong> and <strong>Cooper Union Student Affairs and 2016 Orientation</strong>
   - title: "Silkscreened T-Shirts"
-    amount: "250"
+    amount: "500"
     image: shirt.jpg
     description: Hand tie-dyed and locally silkscreened by <a href="http://worksinprogressnyc.org/"><strong>Works In Progress NYC</strong></a>.
+    soldout: true
+    sponsor: Sponsored by <strong>Darrell Low <sup>EE’89</sup></strong>
   - title: "Buttons + Pins"
     amount: "100"
     image: buttons.jpg
     description: Limited edition, small-run <strong>enamel pins</strong> of iconic Cooper features, and <strong>buttons</strong> for every Cooper group in attendance.
     soldout: true
-    sponsor: Sponsored by <strong><a href="Artifactuality">Artifactuality</a></strong>.
+    sponsor: Sponsored by <strong><a href="http://www.artifactuality.com/">Artifactuality</a></strong>
 - title: Rentals + Supplies
   emoji: 🎙
   items:
@@ -77,7 +79,7 @@
   - title: Sidewalk Chalk
     amount: "300"
     image: chalk.jpg
-    sponsor: Sponsorships claimed by <strong>Ms Giordano</strong>, <strong>Chicago Alumni</strong>, and <strong>Tara Incantalupo</strong>.
+    sponsor: Sponsored by <strong>Ms Giordano</strong>, <strong>Chicago Alumni</strong>, and <strong>Tara Incantalupo</strong>
     description: Help make the block party vibrant! This sponsorship will cover <strong>community art table supplies</strong>.
     soldout: true
   - title: Inflatables Contest
@@ -104,7 +106,7 @@
     amount: "100"
     image: bands.jpg
     soldout: true
-    sponsor: Sponsored by <strong>Mary K. Lynch</strong>.
+    sponsor: Sponsored by <strong>Mary K. Lynch</strong>
 - title: Snax + Drinx
   emoji: 🍰
   items:
