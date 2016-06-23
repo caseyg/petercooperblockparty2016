@@ -1,0 +1,24 @@
+{% include header.html %}
+
+    <body data-spy="scroll" data-offset="50" data-target="#navbar" id="grid">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        {% include nav.html %}
+
+        <div class="jumbotron jumbotron-fluid page-header" style="background-color:;background-image:url({{site.baseurl}}/img/faces.jpg); background-position:bottom left; color: #000;">
+            <div class="container intro-text">
+                <h1 class="display-3">Faces</h1>
+            </div>
+        </div>
+
+        <div class="container">
+          {% for sprite in site.data.faces %}
+            <div class="sprite {{ sprite.name | slugify }}" style="background-image:url({{ site.baseurl }}/img/sprites/{{ sprite.name | slugify }}.png);" data-toggle="popover" data-placement="bottom" data-title="{{ sprite.name }} {{ sprite.school }}" data-content="{{ sprite.description }}" data-trigger="hover"></div>
+          {% endfor %}
+        </div>
+
+    </script>
+
+{% include footer.html %}

@@ -59,6 +59,14 @@ img {
   max-width:100%
 }
 
+.sprite {
+  display: inline-block;
+}
+
+#grid {
+  background: url({{site.baseurl}}/img/grid-yellow-bold.png);
+}
+
 @media (min-width: 48em) {
   .intro-text {
     margin-top: 150px;
@@ -70,4 +78,9 @@ img {
 
 table strong {
   margin-left: 1em;
+}
+
+.sprite {
+    height: 128px;
+    width: 128px;
 }
