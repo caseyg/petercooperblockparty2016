@@ -1,0 +1,10 @@
+{% assign gallery = include.gallery %}
+<div class="carousel" data-flickity data-flickity-options='{ "bgLazyLoad": true, "bgLazyLoad": 1 }'>
+  {% for item in site.data.galleries %}
+    {% if item.title == gallery %}
+      {% for item in item.items %}
+      <div class="carousel-cell" data-flickity-bg-lazyload="{{ item.url }}"></div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>

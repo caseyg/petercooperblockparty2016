@@ -1,0 +1,82 @@
+- type: text
+  text: The 3rd annual <strong>Peter Cooper Block Party</strong> will take place on Saturday, September 3rd, outside Cooper Union. This year we're focusing on re-coalescing, getting back on the same page. Broader public understanding, what happened to cooper, what it stands forward, before giving meaningfully. Trying to use this as a marker in time.
+
+  background-color: "blue"
+  color: "#fff"
+
+- type: heading
+  title: Founder's Day History
+  lead: "Optio sunt animi vero provident est nisi necessitatibus. Minus debitis et maiores animi maiores perspiciatis quibusdam. Enim ullam praesentium dignissimos similique vel accusamus aut. Est ullam suscipit et maiores aliquid aut totam. Odit non velit ipsum nihil cupiditate quo. Quibusdam maiores et voluptas architecto et quo excepturi architecto."
+  background-image: "/img/about/history.jpg"
+  background-position:
+  background-size:
+
+- type: include
+  include: history.html
+
+- type: text
+  text: "<strong>Who We Are.</strong> Optio sunt animi vero provident est nisi necessitatibus. Minus debitis et maiores animi maiores perspiciatis quibusdam. Enim ullam praesentium dignissimos similique vel accusamus aut. Est ullam suscipit et maiores aliquid aut totam. Odit non velit ipsum nihil cupiditate quo. Quibusdam maiores et voluptas architecto et quo excepturi architecto."
+  background-color: "#290a59"
+  background-image: "/img/about/whom.jpg"
+
+- type: heading
+  title: Under Construction
+  lead: "Optio sunt animi vero provident est nisi necessitatibus. Minus debitis et maiores animi maiores perspiciatis quibusdam. Enim ullam praesentium dignissimos similique vel accusamus aut. Est ullam suscipit et maiores aliquid aut totam. Odit non velit ipsum nihil cupiditate quo. Quibusdam maiores et voluptas architecto et quo excepturi architecto."
+  background-color: "#ff0"
+  color: "#000"
+
+- type: heading
+  title: "Slideshow: Construction — Present"
+  background-color: black
+
+- type: text
+  text: "Something snifty."
+  background-color: blue
+
+- type: heading
+  title: "Slideshow: History"
+  background-color: black
+
+- type: text
+  text: "Something snifty."
+  background-color: blue
+
+- type: slideshow
+  title: "Building Unbuilding"
+
+- type: heading
+  title: Vision
+  lead: "Optio sunt animi vero provident est nisi necessitatibus. Minus debitis et maiores animi maiores perspiciatis quibusdam. Enim ullam praesentium dignissimos similique vel accusamus aut. Est ullam suscipit et maiores aliquid aut totam. Odit non velit ipsum nihil cupiditate quo. Quibusdam maiores et voluptas architecto et quo excepturi architecto."
+  background-color: "#ff0"
+  color: "#000"
+
+- type: slideshow
+  title: Renderings
+
+- type: text
+  background-color: blue
+  text: "Optio sunt animi vero provident est nisi necessitatibus. Minus debitis et maiores animi maiores perspiciatis quibusdam. Enim ullam praesentium dignissimos similique vel accusamus aut. Est ullam suscipit et maiores aliquid aut totam. Odit non velit ipsum nihil cupiditate quo. Quibusdam maiores et voluptas architecto et quo excepturi architecto."
+
+- type: slideshow
+  title: Astor Renovation
+
+- type: heading
+  title: What's Going On Here?
+  background-color: "#ff0"
+  color: "#000"
+
+- type: heading
+  title: "Slideshow: Symbols"
+  background-color: "#000"
+  color: "#fff"
+
+- type: heading
+  title: Information
+  lead: "Optio sunt animi vero provident est nisi necessitatibus. Minus debitis et maiores animi maiores perspiciatis quibusdam. Enim ullam praesentium dignissimos similique vel accusamus aut. Est ullam suscipit et maiores aliquid aut totam. Odit non velit ipsum nihil cupiditate quo. Quibusdam maiores et voluptas architecto et quo excepturi architecto."
+  background-color: "green"
+  color: "#fff"
+
+- type: text
+  text: "Food & Drink / Commemorate /Performance & Exhibition / Fun"
+  background-color: "blue"
+  color: "#fff"

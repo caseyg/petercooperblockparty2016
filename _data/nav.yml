@@ -1,15 +1,17 @@
 - title: Home
   rel-url: /
+- title: About
+  rel-url: /about
 - title: Featuring
   rel-url: /featuring
 - title: Fundraising
   rel-url: /fundraising
-- title: Facebook
+- title: <i class="fa fa-facebook" aria-hidden="true"></i>
   url: https://www.facebook.com/events/114803132265633/
-  tooltip: go to facebook.com
-- title: Instagram
+  tooltip: Facebook Event
+- title: <i class="fa fa-instagram" aria-hidden="true"></i>
   url: https://www.instagram.com/petercooperblockparty/
-  tooltip: go to instagram.com
-- title: Contact
+  tooltip: Instagram
+- title: <i class="fa fa-envelope-o" aria-hidden="true"></i>
   url: mailto:petercooperblockparty@gmail.com
-  tooltip: petercooperblockparty@gmail.com
+  tooltip: Email Us

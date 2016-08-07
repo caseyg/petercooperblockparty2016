@@ -1,0 +1,21 @@
+{% assign gallery = include.gallery %}
+<div class="card-columns col-xs-12" {% if include.column-count%}style="column-count: {{ include.column-count }};"{% endif %}>
+  {% for item in site.data.galleries %}
+    {% if item.title == gallery %}
+      {% for item in item.items %}
+        <div class="card lazyload">
+          <img class="card-img lazyload" data-src="{{ item.url }}" alt="{{ item.caption }}">
+          {% if item.title or item.title or item.source  %}
+          <div class="card-img-overlay card-inverse">
+            {% if item.title %}<h4 class="card-title">{{ item.title }}</h4>{% endif %}
+          </div>
+          <div class="card-block">
+            {% if item.caption %}<p class="card-text">{{ item.caption }}</p>{% endif %}
+            {% if item.source %}<p class="card-text"><small class="text-muted align-right">Source: {% if item.source_url %}<a href="{{ item.source_url }}">{% endif %}{{ item.source }}{% if item.source_url %}</a></small>{% endif %}</p>{% endif %}
+          </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>

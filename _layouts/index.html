@@ -1,25 +1,47 @@
 {% include header.html %}
 
-    {% include nav.html %}
+<body id="home">
 
-    <div class="alert alert-warning" role="alert" style="margin-bottom:0;">
-        <div class="container">
-            <strong>Rescheduled!</strong> Please save our (new) date of Saturday, September 3rd, 2016, from 12pm to 5pm! <a href="http://eepurl.com/b2K5cr">Read more</a> and contact <a href="mailto:petercooperblockparty@gmail.com">petercooperblockparty@gmail.com</a> with any questions or inquiries.
+  {% include nav.html %}
+
+  <div class="container sign-container" style="background-color: #fff; padding: 20px 40px;">
+    <div class="construction-sign">
+      <div class="row">
+        <h2 class="whats-going-on-here col-xs-12">What's Going On Here?</h2>
+      </div>
+      <div class="row">
+        <div class="what col-sm-6">
+          <h2>Peter Cooper<br> Block Party</h2>
+          <p>Saturday September 3rd, 2016<br> 12pm-5pm</p>
+          <p>7 East 7th St., New York, NY<br>
+            Outside Cooper Union&apos;s Foundation Building<br>
+          </p>
         </div>
-    </div>
-    
-    <div class="jumbotron jumbotron-fluid page-header" style="background-color:#f7acd8; background-image:url({{site.baseurl}}/img/home.jpg); color: #fff;">
-        <div class="container intro-text">
-            <h3><strong>September 3rd, 2016</strong></h3>
-            <h1 class="display-3">Peter Cooper Block Party 2016</h1>
-            <p class="lead">Outside the Foundation Building<br> 
-            7 East 7th St., New York, NY<br> 
-            FREE & PUBLIC</p>
+        <a class="about col-sm-6" href="about">
+          <h2>About</h2>
+          <p>This is the 3rd annual Peter Cooper Block Party. Check here for a look at the history of the block party, Founder's Day, and this year's theme: "Under Construction: What's Going On Here?".</p>
+          <p><strong>About the Block Party &rarr;</strong></p>
+        </a>
+      </div>
+      <div class="row">
+        <div class="when col-sm-12">
+          <p>Free &amp; Open To The Public &bull; <a href="#">Map</a> &bull; <a href="#">Facebook</a> &bull; <a href="#">Instagram</a></p>
         </div>
+      </div>
+      <div class="row">
+        <a class="featuring col-sm-6" href="featuring">
+          <h2>Featuring</h2>
+          <p>This year's Block Party features many student and alumni groups and projects.</p>
+          <p><strong>See participants &rarr;</strong></p>
+        </a>
+        <a class="fundraising col-sm-6" href="fundraising">
+          <h2>Fundraising</h2>
+          <p>We are generously supported by Cooper Union, the C.U. Alumni Association, and the broader community.</p>
+          <p><strong>Claim a sponsorship &rarr;</strong></p>
+        </a>
+      </div>
+      <div class="contact">Please direct questions and comments about this party to <a href="mailto:petercooperblockparty@gmail.com">petercooperblockparty@gmail.com</a></div>
     </div>
-
-    <img src="img/savethedate.jpg" style="width:100%;" alt="Peter Cooper Block Party">
-
-    {% include countdown.html %}
+  </div>
 
 {% include footer.html %}

@@ -1,0 +1,23 @@
+{% assign gallery = include.gallery %}
+<div>
+  {% for item in site.data.galleries %}
+    {% if item.title == gallery %}
+      {% for item in item.items %}
+        <div class="{% if include.column-count%}col-sm-{{ include.column-count }}{% endif %}">
+          <div class="card lazyload">
+            <div class="card-header">
+              {% if item.title %}<h4 class="card-title">{{ item.title }}</h4>{% endif %}
+              {% if item.caption %}<p class="card-text">{{ item.caption }}</p>{% endif %}
+            </div>
+            <img class="lazyload" data-src="{{ item.url }}" alt="{{ item.caption }}">
+            {% if item.source  %}
+              <div class="card-block">
+                {% if item.source %}<p class="card-text"><small class="text-muted align-right">Source: {% if item.source_url %}<a href="{{ item.source_url }}">{% endif %}{{ item.source }}{% if item.source_url %}</a></small>{% endif %}</p>{% endif %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>

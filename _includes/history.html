@@ -1,0 +1,63 @@
+<ul class="nav nav-tabs" role="tablist" style="background:#fff;padding-top:25px;">
+  <div class="container">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#blockparty-start" role="tab">Start</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-1800s" role="tab">1800s</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-early-1900s" role="tab">Early 1900s</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-1970s" role="tab">1970s</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-1980s" role="tab">1980s</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-2000s" role="tab">2000s</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-2014" role="tab">2014</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-2015" role="tab">2015</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#blockparty-2016" role="tab">2016</a>
+    </li>
+  </div>
+</ul>
+<div class="container">
+  <!-- Tab panes -->
+  <div class="tab-content" style="padding-top:25px;">
+    <div class="tab-pane active" id="blockparty-start" role="tabpanel" style="min-height:300px;">
+      <h2>Click the tabs above to browse the history.</h2>
+    </div>
+    <div class="tab-pane" id="blockparty-1800s" role="tabpanel">
+      {% include cards.html gallery="1800s" column-count="4" %}
+    </div>
+    <div class="tab-pane" id="blockparty-early-1900s" role="tabpanel">
+      {% include cards.html gallery="Early 1900s" column-count="3" %}
+    </div>
+    <div class="tab-pane" id="blockparty-1970s" role="tabpanel">
+      {% include cards-columns.html gallery="1970s" column-count="4" %}
+    </div>
+    <div class="tab-pane" id="blockparty-1980s" role="tabpanel">
+      {% include cards-columns.html gallery="1980s" %}
+    </div>
+    <div class="tab-pane" id="blockparty-2000s" role="tabpanel">
+      {% include cards.html gallery="2000s"  column-count="4" %}
+    </div>
+    <div class="tab-pane" id="blockparty-2014" role="tabpanel">
+      <iframe class="lazyload" data-src="https://docs.google.com/presentation/d/1hpOxwc2Y6wWIzPRPaOQC9EC7oZgCjnlA1T-Yc672rTs/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    <div class="tab-pane" id="blockparty-2015" role="tabpanel">
+      Post-Yinna
+    </div>
+    <div class="tab-pane" id="blockparty-2016" role="tabpanel">
+      <iframe class="lazyload" data-src="https://docs.google.com/presentation/d/10GJRj85MGC4FruxhFoOAE95W3xdYQrEetOKyhNLBulg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+  </div>
+</div>
