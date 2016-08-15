@@ -1,140 +1,86 @@
 {% include header.html %}
 
-<body data-spy="scroll" data-target="#navbar" id="top">
+<body id="about">
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
   {% include nav.html %}
 
-  <article>
-
-    <h1>About</h1>
-
-    <section id="peter-cooper-block-party">
-      <h2>Peter Cooper Block Party</h2>
-
-      <section id="block-party-history" style="background: #eee;">
-        <div class="jumbotron jumbotron-fluid page-header" style="background: #290a59 url(/img/about/history.jpg) no-repeat;background-size:cover;color:#fff;background-position:center right;">
-          <div class="container intro-text">
-              <h3 class="display-3 col-sm-6">History</h3>
-              <p class="lead col-sm-6">Eum aspernatur voluptates repellat. Consequatur voluptatibus repellendus hic beatae. Alias enim blanditiis expedita. Neque deleniti facilis error rem dolor voluptas assumenda. Dolorem perspiciatis aspernatur consequatur. Sed qui corrupti aut rem.</p>
-          </div>
-        </div>
-        {% include history.html %}
-      </section>
-
-      <section id="who-we-are">
-        <div class="jumbotron jumbotron-fluid page-header" style="color: #fff; background:url(/img/about/whom.jpg); background-size: cover;background-position:center;">
-          <div class="container intro-text">
-              <h3 class="display-3 col-sm-6">Who We Are</h3>
-              <p class="lead col-sm-6">
-                Non council members
-                	[???]
-                Collab across the school
-                Integrated with orientation
-                Given the time we're in, it's a time for re-coalescing, getting back on the same page. Broader public understanding, what happened to cooper, what it stands forward, before giving meaningfully. Trying to use this as a marker in time.
-                link to crew
-              </p>
-          </div>
-        </div>
-      </section>
-    </section>
-
-    <section id="under-construction" style="background-color: #ff0;">
-
-      <div class="jumbotron jumbotron-fluid page-header" style="background-color: #ff0; color: #000;">
-        <div class="container intro-text">
-            <h3 class="display-3 col-sm-6">Under Construction</h3>
-            <p class="lead col-sm-6">
-              Cooper is under construction.
-              We're taking on construction, demolition, rebuilding, and development.
-              This year's theme is: "Under Construction: What's Going On Here"
-              Construction is something that happens all around us. The area has been in a constant process of demolition and rebuilding.
-              A lot has been changing at Cooper and in the neighborhood.
-            </p>
-        </div>
+  <article class="container-fluid">
+    <section id="about" class="row">
+      <div class="jumbotron jumbotron-fluid page-header" style="background: url(/img/about/about.png) no-repeat; background-size: cover;color:#fff;background-position:center;">
+        <h3 class="display-3 col-xs-10 offset-xs-1 col-md-6 offset-md-3" style="font-weight: bold;position: absolute; bottom:0;left:0;">About</h3>
       </div>
-
-      <div class="jumbotron jumbotron-fluid page-header" style="background-color: blue; color: #fff;">
-        <div class="container intro-text">
-            <p class="display-4">
-              Cooper is under construction.
-              We're taking on construction, demolition, rebuilding, and development.
-              This year's theme is: "Under Construction: What's Going On Here"
-              Construction is something that happens all around us. The area has been in a constant process of demolition and rebuilding.
-              A lot has been changing at Cooper and in the neighborhood.
-            </p>
-        </div>
+      <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-3 m-t-1 m-b-3">
+        <p><strong>The 3rd annual Peter Cooper Block Party</strong> will take place on Saturday, September 3rd. The Block Party is a relatively new tradition of coming together to celebrate, reconnect with eachother, and showcase the ongoing work of the Cooper community.</p>
+        <p><a href="http://cooper.edu">The Cooper Union for the Advancement of Science and Art</a> is a college for art, architecture, and engineering, founded in 1859 by Peter Cooper with the mission of providing free education to all. In 2014, the college's then-board and administration controversially implemented tuition for the first time in over 150 years, following decades of financializiation and mismanagement.</p>
+        <p>In recent years, the community has galvanized around returning Cooper to an enduring model of free education.</p>
+        <p><a class="read-more" href="#history">Read more Block Party history ➟</a></p>
       </div>
-
-      <section id="building-unbuilding">
-          {% include slideshow-big.html gallery="Building Unbuilding" %}
-        </div>
-      </section>
-
-      <section id="astor-renovation">
-          {% include slideshow-big.html gallery="Astor Renovation" %}
-        </div>
-      </section>
-
-      <section id="renderings">
-          {% include slideshow-big.html gallery="Renderings" %}
-        </div>
-      </section>
-
-
     </section>
-
-    <section id="whats-going-on-here">
-      <h2>What's Going On Here?</h2>
+    <section id="concept" class="row">
+      <div class="jumbotron jumbotron-fluid page-header" style="background: url(/img/about/concept.png) no-repeat;background-size: cover;color:#fff;background-position:left bottom;">
+        <h3 class="display-3 col-xs-10 offset-xs-1 col-md-6 offset-md-3" style="font-weight: bold;position: absolute; bottom:0;left:0;">Concept</h3>
+      </div>
+      <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-3 m-t-1 m-b-3">
+        <p>The theme of this year's Peter Cooper Block Party is a provocation:</p>
+        <p><strong>“Under Construction:"</strong></p>
+        <p>And a question:</p>
+        <p><strong>"What’s Going On Here?”</strong></p>
+        <p>2016 marks the completion of a decade’s worth of private and public redevelopments — architectural, financial, and cultural — at and around Cooper and the Astor Place area. This year’s celebration bears witness to the unfolding impact of these changes.</p>
+        <p><a class="read-more" href="{{site.baseurl}}/concept">Read more about the Concept ➟</a></p>
+      </div>
     </section>
-
+    <section id="why-now" class="row">
+      <div class="jumbotron jumbotron-fluid page-header" style="background: url(/img/about/why-now.png) no-repeat;background-size: cover;color:#fff;background-position:left bottom;">
+        <h3 class="display-3 col-xs-10 offset-xs-1 col-md-6 offset-md-3" style="font-weight: bold;position: absolute; bottom:0;left:0;">Why Now?</h3>
+      </div>
+      <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-3 m-t-1 m-b-3">
+        <p>This year's programming takes on an additional charge: </p>
+        <p><strong>Reflecting while in motion.</strong></p>
+        <p>Let's! Yet! Both!</p>
+      </div>
+    </section>
+    <section id="history" class="row">
+      <div class="jumbotron jumbotron-fluid page-header" style="background: url(/img/about/history.png) no-repeat;background-size: cover;color:#fff;background-position:left bottom;">
+        <h3 class="display-3 col-xs-10 offset-xs-1 col-md-6 offset-md-3" style="font-weight: bold;position: absolute; bottom:0;left:0;">History</h3>
+      </div>
+      {% include history.html %}
+    </section>
+    <section id="alumni-awards" class="row">
+      <div class="jumbotron jumbotron-fluid page-header" style="background: url(/img/about/alumni-awards.png) no-repeat;background-size: cover;color:#fff;background-position:center;">
+        <h3 class="display-3 col-xs-10 offset-xs-1 col-md-6 offset-md-3" style="font-weight: bold;position: absolute; bottom:0;left:0;">Alumni Awards</h3>
+      </div>
+      <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-3 m-t-1 m-b-3">
+        <p>The Cooper Union Alumni Association Awards Ceremony recognizes alumni across skill levels. It's a way of threading.</p>
+        <p>[Catchment point.]</p>
+        <p>The honorees are recognized below.</p>
+        <p><a href="">Alumni Association event page ➟ </a><br>
+          <a href="">Support Cooper recap ➟</a></p>
+ <p><strong>Awardees</strong></p>
+        <p>The Augustus Saint-Gaudens Award<br>
+ <strong>Eric Drooker</strong> A’83</p>
+        <p>The Gano Dunn Award<br>
+ <strong>Professor Jackie Ying</strong> CHE’87</p>
+        <p>The John Q. Hejduk Award<br>
+ <strong>Elizabeth O’Donnell</strong> AR’83</p>
+        <p>The Peter Cooper Public Service Award<br>
+ <strong>Richard Wayne Gnagey</strong> CE’70</p>
+        <p>Alumnus of the Year<br>
+ <strong>Adrian Burton Jovanovic</strong> BSE’89</p>
+        <p>Young Alumna of the Year<br>
+ <strong>Kelly Smolar</strong> ME’07/MME’11</p>
+      </div>
+    </section>
+    <section id="etc" class="row">
+      <div class="jumbotron jumbotron-fluid page-header" style="background: #000 url(/img/about/resources.png) no-repeat;background-size: cover;color:#fff;background-position:left bottom;">
+        <h3 class="display-3 col-xs-10 offset-xs-1 col-md-6 offset-md-3" style="font-weight: bold;position: absolute; bottom:0;left:0;">Etc.</h3>
+      </div>
+      <div class="col-xs-10 offset-xs-1 col-md-6 offset-md-3 m-t-1 m-b-3">
+        <p>Resources go here.</p>
+      </div>
+    </section>
   </article>
-
-  <nav id="navbar" class="navbar navbar-fixed-bottom navbar-about">
-      <div class="container">
-          <ul class="nav nav-pills" role="tablist">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Peter Cooper Block Party</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#peter-cooper-block-party">Peter Cooper Block Party</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#block-party-history">Block Party History</a>
-                <a class="dropdown-item" href="#who-we-are">Who We Are</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Under Construction</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#under-construction">Under Construction</a>
-                <div class="dropdown-divider"></div>
-                <h6 class="dropdown-header">Present</h6>
-                <a class="dropdown-item" href="#building-unbuilding">Building/Unbuilding</a>
-                <a class="dropdown-item" href="#">Community Response</a>
-                <div class="dropdown-divider"></div>
-                <h6 class="dropdown-header">History</h6>
-                <a class="dropdown-item" href="#">History</a>
-                <div class="dropdown-divider"></div>
-                <h6 class="dropdown-header">Vision</h6>
-                <a class="dropdown-item" href="#">Repurposing of Space</a>
-                <a class="dropdown-item" href="#">Media</a>
-                <a class="dropdown-item" href="#">Completion</a>
-                <a class="dropdown-item" href="#">Questions</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">What's Going On Here?</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#whats-going-on-here">What's Going On Here?</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Information</a>
-                <a class="dropdown-item" href="#">Symbols</a>
-                <a class="dropdown-item" href="#">Fun</a>
-              </div>
-            </li>
-          </ul>
-      </div>
-  </nav>
 
 {% include footer.html %}
