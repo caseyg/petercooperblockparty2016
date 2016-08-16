@@ -98,27 +98,27 @@ table strong {
 
 #home {
 
-  background: url(/img/construction-transparent.png), url(/img/about/astor-renovation/12.jpg) center;
+  background: url({{site.baseurl}}/img/construction-transparent.png), url({{site.baseurl}}/img/home.jpg) center;
+  background-size: 300px, cover;
   min-height: 100vh;
-
-  .sign-container {
-    box-shadow: 0 0 25px rgba(0,0,0,.5);
-    @media (min-width: 34em) {
-      margin-top: 150px;
-      border: 5px solid black;
-    }
-  }
 
   .construction-sign {
     font-family: Arial;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(0,0,0,.5);
+    border: 5px solid black;
 
     .whats-going-on-here {
-      transform: scaleX(1.5);
       font-weight: 900;
       color: #000;
       text-align: center;
-      font-size: 54px;
-      margin-bottom: 25px;
+      span {
+        display:inline-block;
+        transform: scaleX(1.5);
+      }
+      @media (min-width: 62em) {
+        font-size: 54px;
+      }
     }
 
     a:hover {
@@ -129,41 +129,52 @@ table strong {
       }
     }
 
-    .what,
-    .about,
-    .featuring,
-    .fundraising {
+    .black,
+    .green,
+    .red,
+    .blue {
       display: block;
       color: #fff;
+      border: 10px solid #fff;
       min-height: 350px;
-      padding: 15px;
-
+      a:link, a:visited {
+        color: white;
+      }
+      a:hover, a:active {
+        text-decoration: underline;
+      }
       h2 {
         font-weight: bold;
         line-height: 1;
-        margin-bottom: 20px;
-        font-size: 54px;
+        @media (min-width: 62em) {
+          font-size: 54px;
+        }
       }
     }
 
-    .what {background: blue; color: aqua;}
-    .about {background: lime; color: green;}
-    .featuring {background: orange; color: red;}
-    .fundraising {background: black; color: gray;}
+    .black {background: black; color: white;}
+    .green {background: lime; color: white;}
+    .red {background: red; color: white;}
+    .blue {background: blue; color: white;}
 
-    .when {
+    .more-info {
       color: #000;
       font-weight: bold;
       text-align: center;
-      letter-spacing: 2px;
-      margin-top: 15px;
+      font-size: 20px;
+      a:link, a:visited {
+        color: blue;
+        text-decoration: underline;
+      }
     }
 
     .contact {
       color: blue;
       text-align: center;
-      letter-spacing: 2px;
-      margin-top: 15px;
+      a:link, a:visited {
+        color: blue;
+        text-decoration: underline;
+      }
     }
 
   }
