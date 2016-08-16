@@ -247,3 +247,25 @@ article .jumbotron {
   column-count: 5;
   column-gap: 0;
 }
+
+#about {
+  p {
+    font-size: 18px;
+  }
+  .nav-tabs, .nav-tabs .nav-link.active {
+    border-color: darken(lime, 10%);
+  }
+  a:link, a:visited {
+    color: #000;
+  }
+  .nav-tabs .nav-link.active,
+  .nav-tabs .nav-link:hover  {
+    background: lime;
+    color: #000;
+    border-color: darken(lime, 10%);
+    border-bottom-color: lime;
+  }
+  .nav-tabs .nav-link.active {
+    font-weight: bold;
+  }
+}
