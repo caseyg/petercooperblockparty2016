@@ -2,7 +2,7 @@
 - {title: "Cuteboys", image: cuteboys.jpg}
 - {title: "Astrological Readings", description: "<strong><a href='http://alicesparklykat.com'>Alice Sparkly Kat</a> <sup>A'13</sup></strong> is <a href='http://alicesparklykat.com/astrology.html'>an astrologist</a> who believes the hermetic and autonomous language of astrology is a valuable tool for examining and improving the artistic process.", image: astrology.jpg}
 - {title: "Black Students Union", description: "<strong>Alfred Dudley</strong>"}
-- {title: "Student Affairs and Res Life", description: "<strong>Chris Chamberlin</strong> and <strong>David Robbins</strong>". image: res.jpg}
+- {title: "Student Affairs and Res Life", description: "<strong>Chris Chamberlin</strong> and <strong>David Robbins</strong>.", image: res.jpg}
 - {title: "Fifth Wave Babes", image: fifthwavebabes.jpg}
 - {title: "Gallery 523", image: gallery.jpg}
 - {title: "Cooper Rad.io", description: "Podcasts, short stories, and audio from The Cooper Union.", image: radio.jpg}
@@ -14,7 +14,7 @@
 - {title: "ASC Kissing Booth", description: "Come kiss your favorite <strong>Art Student Council</strong> members and learn more about student government.", image: kissingbooth.jpg}
 - {title: "Slauson Malone", image: slauson.jpg}
 - {title: "Mission Possible", description: "He&apos;s <strong>Peter Buckley</strong>, humanities faculty and official historian of Cooper Union, and <em>he&apos;s on a mission</em>...committee to help articulate what this institution is actually about. Help him out!", image: buckley.jpg}
-- {title: "Bakesale", description: "<strong>Justin Richter</strong>}
+- {title: "Bakesale", description: "<strong>Justin Richter</strong>"}
 - {title: "Coffee Club", description: 'Have a coffee, prepared by Cooper&apos;s own <a href="https://jac.cooper.edu/club/60"><strong>Coffee Club</strong></a>.', image: coffeeclub.jpg}
 - {title: "Catalyst Crew", description: "<strong>Arnold Wey</strong>"}
 - {title: "Secretary Desk", description: "<strong>Alex Tomlinson</strong> and <strong>Kelsey Mitchell</strong>"}
@@ -25,6 +25,7 @@
 - {title: "C.U. Alumni Association", description: 'Meet members of the official <a href="http://cooperalumni.org"><strong>Cooper Union Alumni Association</strong></a> and learn how you can joing them in &ldquo;preserving, protecting and promoting&rdquo; the institution.', image: alumni.jpg}
 - {title: "Inflatables Competition", image: inflatables.jpg}
 - {title: "Origami Club"}
+- {title: "Saturday Program"}
 
 # - {title: "Ballroom Dancing", description: "A performance by Cooper's <strong>Ballroom Dancing Club</strong> featuring dance couples: <strong>Deanna Kovalcin <sup>ME'16</sup></strong> and <strong>Matt Ferreira <sup>EE'19</sup></strong>, <strong>Dennis Burgner <sup>CE'18</sup></strong> and <strong>Camille Chow <sup>EE'19</sup></strong>, and <strong>Zachary Chang <sup>CE'16</sup></strong> and <strong>Michelle Deng <sup>A'16</sup></strong>.", image: ballroom.jpg}
 # - {title: "Chinese Yo-Yo Club", description: 'Demos and lessons from members of Cooper&apos;s <a href="https://jac.cooper.edu/club/137"><strong>Chinese Yo-Yo Club</strong></a>.', image: yoyo.jpg}
