@@ -94,6 +94,8 @@
     amount: "100"
     image: pins.jpg
     description: "We're producing small runs of Cooper-themed enamel pins designed by alumni. <br><br><strong>4 Sponsorships Available!</strong>"
+    soldout: true
+    sponsor: Sponsored by <strong>Scott Lerman</strong>
 - title: Bands + DJs
   emoji: 💃
   description: We're scheduling a full day of student bands, DJs, and performances. Stay tuned for the lineup.
