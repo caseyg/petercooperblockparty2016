@@ -75,6 +75,8 @@
     image: insurance.jpg
     amount: "250"
     description: "It's all fun and games until it's not—then our insurance handles it. Phew!"
+    soldout: true
+    sponsor: "Sponsored by <strong>Susan Shaw</strong> (<a href='susanshawdesign.com'>Susan Shaw Design</a>) & <strong>Jack Freeman</strong> (<a href='http://jsfreemanassociates.com/'>JSFreemanAssociates</a>)"
 - title: Activities
   emoji: 🎨
   items:
