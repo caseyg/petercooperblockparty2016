@@ -57,6 +57,8 @@
     amount: "100"
     image: balloons.jpg
     description: "It's not a party until we bring out the balloon arch, hand-woven by <strong>Emily Adamo <sup>A'17</sup></strong>. <br><br><strong>3 Sponsorships Available!</strong>"
+    soldout: true
+    sponsor: Sponsored by <strong>Mina Greenstein</strong>
 - title: Permits + Insurance
   emoji: 📝
   items:
