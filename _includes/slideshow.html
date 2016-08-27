@@ -3,7 +3,7 @@
   {% for item in site.data.galleries %}
     {% if item.title == gallery %}
       {% for item in item.items %}
-      <div class="carousel-cell" data-flickity-bg-lazyload="{{ item.url }}"></div>
+      <div class="carousel-cell" data-flickity-bg-lazyload="{{site.baseurl}}{{ item.url }}"></div>
       {% endfor %}
     {% endif %}
   {% endfor %}

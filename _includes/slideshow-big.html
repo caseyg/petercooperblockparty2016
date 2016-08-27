@@ -3,7 +3,7 @@
   {% for item in site.data.galleries %}
     {% if item.title == gallery %}
       {% for item in item.items %}
-      <div class="carousel-cell" data-flickity-bg-lazyload="{{ item.url }}" style="{% if item.background-size %}background-size: {{ item.background-size }};{% endif %}">
+      <div class="carousel-cell" data-flickity-bg-lazyload="{{site.baseurl}}{{ item.url }}" style="{% if item.background-size %}background-size: {{ item.background-size }};{% endif %}">
         {% if item.title or item.caption %}
         <div class="container intro-text">
             {% if item.title %}<h3 class="display-3">{{ item.title }}</h3>{% endif %}
