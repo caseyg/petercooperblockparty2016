@@ -17,6 +17,8 @@
     amount: "250"
     image: infotable.jpg
     description: "The Info Zine Table will include reprints of student and community publications, and printed zines of: The Way Forward; Consent Decree; 2008 Accreditation Self-Study; Deed, Charter, and Founding Docs; Governances; and more..."
+    soldout: true
+    sponsor: Sponsored by <strong>Robert Tan</strong>
   - title: Info Zine
     image: infozine.jpg
     amount: "100"
