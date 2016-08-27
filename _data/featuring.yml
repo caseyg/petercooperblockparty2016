@@ -7,6 +7,7 @@
 - {title: "Gallery 523", image: gallery.jpg}
 - {title: "Cooper Rad.io", description: "Podcasts, short stories, and audio from The Cooper Union.", image: radio.jpg}
 - {title: "Friends of the Library", image: library.jpg, description: "<strong>Carol Solomon</strong>."}
+- {title: "Chinese Yo-Yo Club", description: 'Demos and lessons from members of Cooper&apos;s <a href="https://jac.cooper.edu/club/137"><strong>Chinese Yo-Yo Club</strong></a>.', image: yoyo.jpg}
 - {title: "C.U. History Project", description: 'The <strong>Cooper Union History Project</strong> is a joint effort with the goals of preserving and sharing Cooper’s history, through collecting oral histories among other projects.', image: history.jpg}
 - {title: "Yearbook Reading Area", description: 'Peruse yearbooks old and new, brought to you by the <a href="http://library.cooper.edu/archive/cooper_archives_mission_frameset.html"><strong>Cooper Union Archives</strong></a>.', image: yearbooks.jpg}
 - {title: "NONE", description: "<strong>Austin Mayer</strong>"}
@@ -28,6 +29,5 @@
 - {title: "Saturday Program"}
 
 # - {title: "Ballroom Dancing", description: "A performance by Cooper's <strong>Ballroom Dancing Club</strong> featuring dance couples: <strong>Deanna Kovalcin <sup>ME'16</sup></strong> and <strong>Matt Ferreira <sup>EE'19</sup></strong>, <strong>Dennis Burgner <sup>CE'18</sup></strong> and <strong>Camille Chow <sup>EE'19</sup></strong>, and <strong>Zachary Chang <sup>CE'16</sup></strong> and <strong>Michelle Deng <sup>A'16</sup></strong>.", image: ballroom.jpg}
-# - {title: "Chinese Yo-Yo Club", description: 'Demos and lessons from members of Cooper&apos;s <a href="https://jac.cooper.edu/club/137"><strong>Chinese Yo-Yo Club</strong></a>.', image: yoyo.jpg}
 #- {title: "Julie Harris", image: julie.jpg}
 #- {title: "Victoria Sobel and Casey Gollan", image: caseyvic.jpg}
