@@ -22,7 +22,9 @@
   - title: Info Zine
     image: infozine.jpg
     amount: "100"
-    description: "With this sponsorship, help fund a print run of one informational zine. <br><br><strong>3 Sponsorships Available!</strong>"
+    description: "With this sponsorship, help fund a print run of one informational zine."
+    soldout: true
+    sponsor: Sponsored by <strong>Ling Wei Chang</strong> and <strong>Sangamithra Iyer</strong>
 - title: Cooper Stuff
   emoji: 👕
   items:
@@ -58,7 +60,7 @@
   - title: Balloons
     amount: "100"
     image: balloons.jpg
-    description: "It's not a party until we bring out the balloon arch, hand-woven by <strong>Emily Adamo <sup>A'17</sup></strong>. <br><br><strong>3 Sponsorships Available!</strong>"
+    description: "It's not a party until we bring out the balloons."
     soldout: true
     sponsor: Sponsored by <strong>Mina Greenstein</strong>
 - title: Permits + Insurance
@@ -78,7 +80,7 @@
     amount: "250"
     description: "It's all fun and games until it's not—then our insurance handles it. Phew!"
     soldout: true
-    sponsor: "Sponsored by <strong>Susan Shaw</strong> (<a href='susanshawdesign.com'>Susan Shaw Design</a>) & <strong>Jack Freeman</strong> (<a href='http://jsfreemanassociates.com/'>JSFreemanAssociates</a>)"
+    sponsor: "Sponsored by <strong>Susan Shaw</strong> of <a href='susanshawdesign.com'>Susan Shaw Design</a> and <strong>Jack Freeman</strong> of <a href='http://jsfreemanassociates.com/'>JSFreemanAssociates</a>"
 - title: Activities
   emoji: 🎨
   items:
@@ -95,7 +97,7 @@
   - title: Editioned Enamel Pins
     amount: "100"
     image: pins.jpg
-    description: "We're producing small runs of Cooper-themed enamel pins designed by alumni. <br><br><strong>4 Sponsorships Available!</strong>"
+    description: "We're producing small runs of Cooper-themed enamel pins designed by alumni."
     soldout: true
     sponsor: Sponsored by <strong>Scott Lerman</strong>
 - title: Bands + DJs
@@ -109,7 +111,8 @@
   - title: Student DJs + A/V
     amount: "100"
     image: dj.jpg
-    description: "<strong>2 Sponsorships Available!</strong>"
+    soldout: true
+    sponsor: Sponsored by <strong>Josephine Halvorson</strong>
   - title: Student Performances
     amount: "100"
     image: bands.jpg
