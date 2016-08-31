@@ -6,10 +6,12 @@
   rel-url: /concept
 - title: Featuring
   rel-url: /featuring
-- title: Fundraising
-  rel-url: /fundraising
 - title: Schedule + Map
   rel-url: /schedule
+- title: Souvenirs
+  rel-url: /souvenirs
+- title: Fundraising
+  rel-url: /fundraising
 - title: Thanks
   rel-url: /thanks
 - title: <i class="fa fa-facebook" aria-hidden="true"></i>
