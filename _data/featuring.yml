@@ -11,7 +11,7 @@
 - {title: "Cooper Rad.io", description: "Podcasts, short stories, and audio from The Cooper Union.", image: radio.jpg}
 - {title: "Cuteboys", image: cuteboys.jpg}
 - {title: "Fifth Wave Babes", image: fifthwavebabes.jpg}
-- {title: "Friends of the Library", image: library.jpg, description: "<strong>Carol Solomon</strong>."}
+- {title: "Friends of the Library", image: library.jpg, description: "Ask <strong>Julie Castelluzzo</strong> all about the <strong>Cooper Union Library</strong> and its new open membership program!"}
 - {title: "Gallery 523", image: gallery.jpg}
 - {title: "Mission Possible", description: "He&apos;s <strong>Peter Buckley</strong>, humanities faculty and official historian of Cooper Union, and <em>he&apos;s on a mission</em>...committee to help articulate what this institution is actually about. Help him out!", image: buckley.jpg}
 - {title: "Origami Club"}
@@ -24,4 +24,4 @@
 - {title: "Steel Bridge", image: steelbridge.jpg}
 - {title: "Student Affairs and Res Life", description: "<strong>Chris Chamberlin</strong> and <strong>David Robbins</strong>.", image: res.jpg}
 - {title: "The Pioneer", image: pioneer.jpg}
-- {title: "Yearbook Reading Area", description: 'Peruse yearbooks old and new, brought to you by the <a href="http://library.cooper.edu/archive/cooper_archives_mission_frameset.html"><strong>Cooper Union Archives</strong></a>.', image: yearbooks.jpg}
+- {title: "Yearbook Reading Area", description: 'Peruse yearbooks old and new, brought to you by <strong>Carol Salomon</strong> of the <a href="http://library.cooper.edu/archive/cooper_archives_mission_frameset.html"><strong>Cooper Union Archives</strong></a>.', image: yearbooks.jpg}
