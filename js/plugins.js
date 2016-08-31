@@ -91,3 +91,7 @@ $(function() {
   })
 
 });
+
+$(".shop").click(function() {
+  swal("Souvenirs will be available for donation at the Peter Cooper Block Party on Saturday September 3rd, 2016.");
+});
