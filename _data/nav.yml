@@ -8,6 +8,10 @@
   rel-url: /featuring
 - title: Fundraising
   rel-url: /fundraising
+- title: Schedule + Map
+  rel-url: /schedule
+- title: Thanks
+  rel-url: /thanks
 - title: <i class="fa fa-facebook" aria-hidden="true"></i>
   url: https://www.facebook.com/events/114803132265633/
   tooltip: Facebook Event

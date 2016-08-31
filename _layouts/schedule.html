@@ -1,0 +1,54 @@
+{% include header.html %}
+
+<body id="schedule" style="color: #fff; background-image: url({{site.baseurl}}/img/construction-transparent.png), url({{site.baseurl}}/img/colorphasecycle.gif);">
+
+{% include nav.html %}
+
+<div class="container p-y-3 disco lead">
+  <div class="row hidden-xs-down">
+    <div class="col-sm-2">Time</div>
+    <div class="col-sm-5">Event</div>
+    <div class="col-sm-5">Details</div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12 col-sm-2">12pm-5pm</div>
+    <div class="col-xs-12 col-sm-5 p-b-2"><strong>Peter Cooper Block Party begins!</strong> <br><em>@ Cooper Union, 7 East. 7th St.</em></div>
+    <div class="col-xs-12 col-sm-5">FEATURING:Art404 • Art Student Council Kissing Booth • Astrological Readings • Black Students Union • C.U. Alumni Association • C.U. History Project • Chinese Yo-Yo Club • Coffee Club • Community Art Table • Cooper Rad.io • Friends of the Library • Gallery 523 • Mission Possible • Origami Club • Queer and Allies • Reflections II • Saturday Program • SociaLite • Student Affairs and Res Life • The Pioneer • Yearbook Reading Area •</div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12 col-sm-2">1pm-5pm</div>
+    <div class="col-xs-12 col-sm-5 p-b-2"><strong>Live Music &amp; Performances</strong> <br><em>@ Block Party Outdoor Stage</em></div>
+    <div class="col-xs-12 col-sm-5">Cuteboys • Fifth Wave Babes • Slauson Malone • Secretary Desk • Steel Bridge</div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12 col-sm-2">6pm</div>
+    <div class="col-xs-12 col-sm-5 p-b-2"><strong>Peter Cooper Movie Screening</strong> <br><em>@ The Great Hall, 7 East. 7th St.</em></div>
+    <div class="col-xs-12 col-sm-5"></div>
+  </div>
+
+</div>
+
+<style type="text/css">
+@keyframes animatedBackground {
+	to { background-position: 0 0; }
+	from { background-position: 100% 0; }
+}
+body	{
+  animation: animatedBackground 20s linear infinite;
+}
+.disco {
+  text-shadow: 2px 2px 0 #000;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+hr {
+  border-color: #fff;
+  border-top-width: 5px;
+  box-shadow: 3px 3px 0 #000;
+}
+</style>
+
+{% include footer.html %}
