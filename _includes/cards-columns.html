@@ -4,7 +4,7 @@
     {% if item.title == gallery %}
       {% for item in item.items %}
         <div class="card lazyload">
-          <img class="card-img lazyload" data-src="{{ item.url }}" alt="{{ item.caption }}">
+          <img class="card-img lazyload" data-src="{{site.baseurl}}{{ item.url }}" alt="{{ item.caption }}">
           {% if item.title or item.title or item.source  %}
           <div class="card-img-overlay card-inverse">
             {% if item.title %}<h4 class="card-title">{{ item.title }}</h4>{% endif %}
