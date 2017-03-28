@@ -1,5 +1,5 @@
 exclude: [vendor]
 permalink: :title
-baseurl: http://petercooperblockparty.com/2016
+baseurl: http://caseyg.github.io/petercooperblockparty2016
 gems:
   - jekyll-redirect-from
